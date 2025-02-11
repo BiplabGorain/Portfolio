@@ -1,5 +1,5 @@
 
-fetch("${API_BASE_URL}/api/navbar-logo/")
+fetch(`${API_BASE_URL}/api/navbar-logo/`)
     .then((response) => response.json())
     .then((data) => {
         const logoImg = document.getElementById("nav-avatar");

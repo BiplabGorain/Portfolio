@@ -98,7 +98,7 @@ const updateProjectsSection = (data) => {
 };
 
 // Fetch projects data from API
-fetch("${API_BASE_URL}/api/projects/")
+fetch(`${API_BASE_URL}/api/projects/`)
     .then(response => {
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         return response.json();

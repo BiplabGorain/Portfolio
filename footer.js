@@ -74,7 +74,7 @@ const updateFooterContent = (data) => {
 };
 
 // Fetch footer data from API
-fetch("${API_BASE_URL}/api/footer/") // Adjust API URL if needed
+fetch(`${API_BASE_URL}/api/footer/`) // Adjust API URL if needed
     .then((response) => {
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         return response.json();

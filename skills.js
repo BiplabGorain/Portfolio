@@ -34,7 +34,7 @@ const updateSkillsSection = (data) => {
 };
 
 // Fetch skills data from API
-fetch("${API_BASE_URL}/api/skills/")
+fetch(`${API_BASE_URL}/api/skills/`)
     .then(response => {
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         return response.json();

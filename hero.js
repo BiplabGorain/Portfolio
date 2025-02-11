@@ -49,7 +49,7 @@ const updateHeroSection = (data) => {
 };
 
 // Fetch hero section data from the backend API
-fetch("${API_BASE_URL}/api/hero/") // Adjust API URL if needed
+fetch(`${API_BASE_URL}/api/hero/`) // Adjust API URL if needed
     .then((response) => {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);

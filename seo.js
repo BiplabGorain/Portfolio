@@ -35,7 +35,7 @@ const updateSEOMetadata = (data) => {
 };
 
 // Fetch SEO data from the backend API
-fetch("${API_BASE_URL}/api/seo/")
+fetch(`${API_BASE_URL}/api/seo/`)
     .then((response) => {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);

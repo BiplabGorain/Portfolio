@@ -39,7 +39,7 @@ const updateAboutSection = (data) => {
 };
 
 // Fetch about section data from API
-fetch("${API_BASE_URL}/api/about/")
+fetch(`${API_BASE_URL}/api/about/`)
     .then(response => {
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         return response.json();
