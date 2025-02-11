@@ -86,24 +86,23 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
-
 :root {
-    --color-white: #f5fcff;
-    --color-black: #001319;
-    --color-dark-mode: #001a21;
-    --color-light-mode: #e0f4ff;
-    --color-ddd-color: #ddd;
-    --color-gray: #6699aa;
-    --color-purple: #00aaff;
-    --color-light-purple: #57d4f7;
-    --color-light-blue: #00bfff;
-    --color-navbarBorder-dark: #00ffff10;
-    --color-shadowDark: rgba(0, 191, 255, 0.1);
-    --static-heading-gradient-blue: #00e6e6;
-    --static-heading-gradient-pink: #696eff;
-    --tech-stack-box-first-color: #002b36;
-    --tech-stack-box-second-color: rgba(0, 43, 54, 0);
-    --tech-stack-box-border-color: #005566;
+	--color-white: #f5fcff;
+	--color-black: #001319;
+	--color-dark-mode: #001a21;
+	--color-light-mode: #e0f4ff;
+	--color-ddd-color: #ddd;
+	--color-gray: #6699aa;
+	--color-purple: #00aaff;
+	--color-light-purple: #57d4f7;
+	--color-light-blue: #00bfff;
+	--color-navbarBorder-dark: #00ffff10;
+	--color-shadowDark: rgba(0, 191, 255, 0.1);
+	--static-heading-gradient-blue: #00e6e6;
+	--static-heading-gradient-pink: #696eff;
+	--tech-stack-box-first-color: #002b36;
+	--tech-stack-box-second-color: rgba(0, 43, 54, 0);
+	--tech-stack-box-border-color: #005566;
 }
 
 #hello-friend,
@@ -323,7 +322,7 @@ header {
 	z-index: 99999;
 	justify-content: center;
 	overflow-y: hidden;
-	background-image: url("/src/svg/Pulse.svg");
+	background-image: url(src/svg/Pulse.svg);
 	background-size: 10%;
 }
 
@@ -837,7 +836,7 @@ noscript {
 	letter-spacing: 0.8px;
 }
 
-.cta:hover span{
+.cta:hover span {
 	color: var(--color-light-blue);
 }
 
