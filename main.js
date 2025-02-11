@@ -1,4 +1,4 @@
-const API_BASE_URL = "portfoliobiplab.pythonanywhere.com";
+const API_BASE_URL = "https://portfoliobiplab.pythonanywhere.com";
 var audio = document.getElementById("audioPlayer"),
 	loader = document.getElementById("preloader");
 function settingtoggle() {
