@@ -40,7 +40,7 @@ const updateHeroSection = (data) => {
     }
 
     if (infoParaElement) {
-        infoParaElement.innerText = data.description;
+        infoParaElement.innerHTML = data.description;
     }
 
     if (contactButton) {
