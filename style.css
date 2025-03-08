@@ -2040,7 +2040,8 @@ footer {
 		gap: 10px;
 	}
 	.social-media-container a {
-		height: auto;
+		height: 45px;
+		width: 45px;
 	}
 }
 
